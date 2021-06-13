@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Kelly Bootstrap Template</title>
+  <title>Projects</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -42,7 +42,7 @@
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="/">Kelly</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Shibin</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="{% static 'assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -51,8 +51,8 @@
           <li><a href="/">Home</a></li>
           <li><a href="../about">About</a></li>
           <li><a href="../resume">Resume</a></li>
-          <li><a href="../services">Services</a></li>
-          <li><a class="active" href="../portfolio">Portfolio</a></li>
+          <li><a href="../services">Skills</a></li>
+          <li><a class="active" href="../portfolio">Projects</a></li>
           <li><a href="../contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -77,15 +77,15 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Unity Projects and Python Projects</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-app">Applications</li>
+              <li data-filter=".filter-card">Python Projects</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
@@ -101,7 +101,7 @@
                 <p>App</p>
                 <div class="portfolio-links">
                   <a href="{% static 'assets/img/portfolio/portfolio-1.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfoliodetails" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="../portfoliodetails"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -209,11 +209,11 @@
             <div class="portfolio-wrap">
               <img src="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
+                <h4>Web 5</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfoliodetails" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 5"><i class="bx bx-plus"></i></a>
+                  <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -222,6 +222,27 @@
         </div>
 
       </div>
+
+<!--Off canvas-->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <img src="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" class="img-fluid" alt="">
+          <img src="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" class="img-fluid" alt="">
+          <img src="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" class="img-fluid" alt="">
+          <img src="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" class="img-fluid" alt="">
+          <img src="{% static 'assets/img/portfolio/portfolio-9.jpg'  %}" class="img-fluid" alt="">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+        </div>
+      </div>
+  
+
+
     </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->

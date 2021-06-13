@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  background: #93ffaae1;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("https://raw.githubusercontent.com/sshibinthomass/web-images/main/Portfolio/Portfoilo%20site/index2.jpg") top right;
   background-size: cover;
 }
 
@@ -427,11 +427,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: #f3ecec;
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #ffffff;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -799,7 +799,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: rgba(218, 137, 137, 0.397);
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -1253,7 +1253,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e9e8e6;
+  background: #93ffaae1;
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
